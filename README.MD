@@ -2,6 +2,8 @@
 
 A small sandbox for running **My Pi** in a Docker-based shell environment.
 
+A pi casing.
+
 ## Overview
 
 This workspace packages the [`my-pi`](internal-package.json) CLI into a container built from [Dockerfile](Dockerfile). The image is based on Docker's shell sandbox template and is set up to install and run `my-pi` with `pnpm`.
