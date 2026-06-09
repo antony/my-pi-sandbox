@@ -1,0 +1,15 @@
+{
+  "name": "casing",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.5.2",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=25.x",
+      "onFail": "download"
+    }
+  },
+  "dependencies": {
+    "my-pi": "latest"
+  }
+}

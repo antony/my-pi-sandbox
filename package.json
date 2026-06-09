@@ -1,0 +1,21 @@
+{
+  "name": "casing",
+  "version": "1.0.0",
+  "description": "A sandbox for testing my-pi, a wrapper around the Pi Agent",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker buildx build -t my-pi .",
+    "dev": "docker run -p 43190:43190 -it --rm --name my-pi-sandbox my-pi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.5.2",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=25.x",
+      "onFail": "download"
+    }
+  },
+}
