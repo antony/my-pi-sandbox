@@ -17,5 +17,5 @@
       "version": ">=25.x",
       "onFail": "download"
     }
-  },
+  }
 }
